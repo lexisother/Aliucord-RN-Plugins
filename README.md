@@ -1,3 +1,4 @@
+<!--
 # Plugin Template for AliucordRN
 
 This template uses typescript and the pnpm package manager
@@ -16,3 +17,8 @@ Watch for changes and auto compile & deploy* :
 pnpm watch TokenLogger
 ```
 \* Requires adb installed and to be connected to your phone
+-->
+
+# Aliucord-RN-Plugins
+
+My plugins for AliucordRN.
