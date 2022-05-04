@@ -23,8 +23,7 @@ jobs:
       - name: Prepare rollup plugin
         working-directory: ./rollup-plugin-aliucord
         run: |
-          pnpm remove rollup-plugin-swc
-          pnpm i rollup-plugin-swc
+          pnpm i
           pnpm run build
 
       - name: Setup dependencies
