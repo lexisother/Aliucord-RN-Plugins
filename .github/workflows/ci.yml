@@ -30,7 +30,7 @@ jobs:
         run: |
           pnpm i ./rollup-plugin-aliucord
 
-      - name: Build plugin
+      - name: Build plugins
         run: |
           mkdir dist
-          node build.mjs Experiments
+          find ./ -path "*/manifest.json" | xargs -I % bash -c "base='%'; node build.mjs \${base:2:-14};"
